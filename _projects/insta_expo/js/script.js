@@ -27,7 +27,7 @@ function download(event) {
         }
     });
 
-    xhr.open("POST", "http://127.0.0.1:3000/");
+    xhr.open("POST", "http://54.36.196.121:3000/");
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
     xhr.responseType = 'blob';
 
